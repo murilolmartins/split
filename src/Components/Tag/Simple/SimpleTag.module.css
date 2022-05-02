@@ -1,0 +1,10 @@
+.tag_container {
+  background-color: lightblue;
+  padding: 5px;
+  border-radius: 5px;
+  height: 25px;
+  color: darkblue;
+  font-size: 15px;
+  display: flex;
+  gap: 2px;
+}

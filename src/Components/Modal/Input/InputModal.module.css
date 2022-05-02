@@ -1,0 +1,39 @@
+.modal_input {
+  width: 95%;
+  border: none;
+  border-bottom: 2px solid gray;
+  padding: 5px;
+}
+
+.modal_input_alert {
+  width: 95%;
+  border: none;
+  border-bottom: 2px solid red;
+  padding: 5px;
+  color: red;
+}
+
+.card_input:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+.input_container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.normal_lable {
+  display: flex;
+  gap: 5px;
+}
+
+.lable_alert {
+  display: flex;
+  gap: 5px;
+  color: red;
+}
+
+.lable_alert svg {
+  color: red;
+}

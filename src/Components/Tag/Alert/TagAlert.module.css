@@ -1,0 +1,14 @@
+.alert_container {
+  display: flex;
+  gap: 3px;
+  padding: 5px;
+  border-radius: 5px;
+  height: 25px;
+  color: red;
+  font-size: 15px;
+  background-color: lightgoldenrodyellow;
+}
+
+.alert_container div svg {
+  color: red;
+}

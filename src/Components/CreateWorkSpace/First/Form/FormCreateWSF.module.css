@@ -1,0 +1,95 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-grow: 1;
+  background-color: lightblue;
+}
+
+.form_container {
+  width: 100%;
+  height: 80%;
+  max-width: 900px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 60px;
+  border-radius: 15px;
+}
+.form_smallContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 80px;
+  height: 65%;
+}
+.input_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  align-self: baseline;
+}
+.name {
+  width: 250px;
+  border: none;
+  border-bottom: 2px solid gray;
+  padding: 5px;
+}
+
+.location_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+
+.location {
+  width: 250px;
+  border: none;
+  border-bottom: 2px solid gray;
+  padding: 5px;
+}
+
+.image_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  align-self: baseline;
+  width: 400px;
+}
+
+.image_container h2 {
+  font-weight: 100;
+  font-size: 15px;
+}
+
+.image_smallContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.image_container button {
+  width: 360px;
+  height: 30px;
+  color: white;
+  border: none;
+  background-color: lightgray;
+  border-radius: 5px;
+}
+
+img {
+  width: 175px;
+  border-radius: 15px;
+}
+
+input:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}

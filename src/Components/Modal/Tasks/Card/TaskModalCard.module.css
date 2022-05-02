@@ -1,0 +1,87 @@
+.task_card {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  border: 2px solid lightgray;
+  border-radius: 5px;
+  gap: 15px;
+  margin-right: 2px;
+}
+
+.task_card header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+.date span {
+  color: gray;
+  font-size: 16px;
+}
+
+.tags_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  width: 100%;
+}
+
+.allTags {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.tag {
+  background-color: lightblue;
+  padding: 5px;
+  border-radius: 5px;
+  height: 25px;
+}
+
+.tag p {
+  color: darkblue;
+}
+
+.description_container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.doctor_information {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.doctor_information div img {
+  width: 30px;
+}
+
+.doctor_data {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.completed {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  border: 2px solid lightgray;
+  border-radius: 5px;
+  gap: 15px;
+  margin-right: 2px;
+  background-color: darkgray;
+}
+
+.completed header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}

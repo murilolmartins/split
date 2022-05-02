@@ -1,0 +1,32 @@
+.option_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+  padding: 5px;
+}
+
+.button_container button {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: transparent;
+  border: 0px;
+}
+
+.svg_container {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title_container {
+  background-color: white;
+  padding: 8px 10px 8px 8px;
+  width: 225px;
+  border-radius: 5px;
+}
+.title_container p {
+  font-size: 14px;
+}

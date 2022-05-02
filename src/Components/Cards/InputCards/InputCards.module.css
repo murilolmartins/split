@@ -1,0 +1,11 @@
+.card_input {
+  width: 200px;
+  border: none;
+  border-bottom: 2px solid gray;
+  padding: 5px;
+}
+
+.card_input:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}

@@ -1,0 +1,54 @@
+.background {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  right: 0;
+}
+.opacity {
+  opacity: 0.5;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  position: fixed;
+}
+
+.container {
+  background-color: white;
+  height: 700px;
+  max-width: 1000px;
+  width: 100%;
+  border-radius: 15px;
+  position: fixed;
+  padding: 0px 10px 10px 10px;
+}
+
+.close {
+  width: 100%;
+  text-align: end;
+  padding: 2px 0px 0px 0px;
+}
+
+.close svg {
+  font-size: 17px;
+}
+
+.container {
+  background-color: white;
+  height: 90vh;
+  max-width: 90vw;
+  width: 100%;
+  border-radius: 15px;
+  position: fixed;
+  padding: 0px 10px 10px 10px;
+}
+
+@media (min-width: 700px) {
+  .container {
+    height: 700px;
+    max-width: 1000px;
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "nome": "Enfermaria I",
+  "patients": [
+    {
+      "info": {
+        "name": "Joao Carlos",
+        "sexo": "Masculino"
+      },
+      "tarefas": {
+        "list": [
+          {
+            "description": "Lavar equipamentos",
+            "tags": ["Lorem ipsulum", "Lorem ipsulum"],
+            "alerts": ["Lorem ipslum"],
+            "date": "01/01/2022",
+            "comments": ["ele esta bem mal "]
+          },
+          {
+            "description": "Fazer algum coisa",
+            "tags": ["Lorem ipsulum"],
+            "alerts": ["Lorem ipslum"],
+            "date": "01/09/2022"
+          }
+        ],
+        "comments": ["oi", "tchau"]
+      },
+
+      "diagnosticos": {
+        "list": {
+          "description": "Ele esta bem mal mesmo",
+          "tags": ["Lorem ipsulum", "Lorem ipsulum"],
+          "alerts": ["Lorem ipslum"],
+          "date": "01/11/2022"
+        },
+        "comments": ["ele esta bem mal "]
+      },
+      "alergias": {
+        "list": {
+          "description": "Esta inteiro machucado",
+          "tags": ["Lorem ipsulum", "Lorem ipsulum"],
+          "alerts": ["Lorem ipslum"],
+          "date": "01/11/2022"
+        },
+        "comments": []
+      }
+    },
+    {
+      "info": {
+        "name": "Gustavo G",
+        "sexo": "Masculino"
+      },
+      "tarefas": {
+        "list": [
+          {
+            "description": "Parar de comer",
+            "tags": ["Lorem ipsulum", "Lorem ipsulum"],
+            "alerts": ["Lorem ipslum"],
+            "date": "01/01/2022",
+            "comments": ["ele esta bem mal "]
+          },
+          {
+            "description": "Trabalhar de verdade",
+            "tags": ["Lorem ipsulum"],
+            "alerts": ["Lorem ipslum"],
+            "date": "01/09/2022"
+          }
+        ],
+        "comments": ["esta gigante", "cansei"]
+      },
+
+      "diagnosticos": {
+        "list": {
+          "description": "obesidade morbida",
+          "tags": ["Lorem ipsulum", "Lorem ipsulum"],
+          "alerts": ["Lorem ipslum"],
+          "date": "01/11/2022"
+        },
+        "comments": ["ele esta bem mal "]
+      },
+      "alergias": {
+        "list": {
+          "description": "Gordura por toda a parte",
+          "tags": ["Lorem ipsulum", "Lorem ipsulum"],
+          "alerts": ["Lorem ipslum"],
+          "date": "01/11/2022"
+        },
+        "comments": []
+      }
+    }
+  ]
+}

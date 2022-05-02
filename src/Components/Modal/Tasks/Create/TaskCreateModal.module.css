@@ -1,0 +1,175 @@
+.title {
+  font-size: 18px;
+}
+
+div h2 {
+  font-size: 18px;
+}
+
+.create_task_container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  overflow-y: scroll;
+  padding-bottom: 5px;
+  border-bottom: 2px solid gray;
+}
+
+.create_task_container::-webkit-scrollbar {
+  width: 3px;
+}
+
+.create_task_container::-webkit-scrollbar-thumb {
+  background: gray;
+  border-radius: 5px;
+}
+
+.search_input {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.selectTags_container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.alert_container {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.create_alert_container {
+  display: flex;
+  gap: 10px;
+}
+
+.input_alert {
+  flex-grow: 1;
+}
+
+.alert_button {
+  display: flex;
+  margin-right: 2px;
+}
+
+.button_alert {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: red;
+  color: white;
+  height: 35px;
+  font-size: 15px;
+  align-self: flex-end;
+}
+
+.alerts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.cancel_button button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid lightgray;
+  background-color: white;
+  color: lightgray;
+  align-self: flex-start;
+  height: 40px;
+  font-size: 15px;
+}
+
+.save_button button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: lightgray;
+  color: white;
+  height: 40px;
+  font-size: 15px;
+}
+
+.finish_buttons {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 2px;
+}
+
+textarea {
+  margin-right: 4px;
+  background-color: lightblue;
+  padding: 5px;
+  border: none;
+  border-radius: 10px;
+}
+
+.button_status {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: lightgrey;
+  color: white;
+  height: 35px;
+  font-size: 15px;
+  align-self: flex-end;
+}
+
+.header_textarea {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 3px;
+}
+
+.header_textarea div button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: lightgrey;
+  color: white;
+  height: 15px;
+  font-size: 15px;
+  align-self: flex-end;
+}
+
+@media (min-width: 700px) {
+  .create_task_container {
+    height: 70%;
+  }
+
+  .create_task_container {
+    padding-left: 10px;
+  }
+  .cancel_button button {
+    width: 140px;
+  }
+  .save_button button {
+    width: 140px;
+  }
+}

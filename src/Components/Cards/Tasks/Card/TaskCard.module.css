@@ -1,0 +1,44 @@
+.task_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.task_container .taskDescription_container {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.taskDescription_container p {
+  flex-grow: 1;
+}
+.task_container div p {
+  font-size: 15px;
+  max-height: 45px;
+  overflow-y: scroll;
+  width: 150px;
+  text-align: start;
+}
+
+.check {
+  background-color: black;
+}
+input:checked {
+  background-color: gray;
+}
+
+.task_container div p::-webkit-scrollbar {
+  width: 3px;
+}
+
+.task_container div p::-webkit-scrollbar-thumb {
+  background: gray;
+  border-radius: 5px;
+}
+
+.task_description_completed {
+  color: gray;
+}

@@ -1,0 +1,73 @@
+.container {
+  width: 100%;
+  flex-grow: 1;
+  background-color: lightblue;
+}
+
+.small_container {
+  display: flex;
+  justify-content: center;
+}
+
+.options_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-grow: 1;
+  padding: 50px 0px 0px 20px;
+}
+
+.display_container {
+  width: 80vw;
+  display: inline-block;
+  gap: 10px;
+  padding: 20px 0px 0px 30px;
+}
+
+.options_title h2 {
+  font-weight: 500;
+  font-size: 17px;
+  padding-left: 40px;
+  padding-bottom: 5px;
+}
+.advertise {
+  width: 140px;
+  background-color: darkslategray;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+}
+
+.advertise p {
+  font-size: 15px;
+}
+
+.boxList_container {
+  display: flex;
+  gap: 10px;
+  overflow-x: scroll;
+  padding: 0px 0px 10px 0px;
+  max-width: 90vw;
+}
+
+.title_container h2 {
+  font-weight: 500;
+  font-size: 17px;
+  padding: 10px 0px;
+}
+
+.boxList_container::-webkit-scrollbar {
+  height: 5px;
+}
+
+.boxList_container::-webkit-scrollbar-track-piece {
+  background: #cccccc;
+  border-radius: 5px;
+}
+.boxList_container::-webkit-scrollbar-thumb {
+  background: gray;
+  border-radius: 5px;
+}

@@ -1,0 +1,47 @@
+.diagnoses_container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow-y: scroll;
+  max-height: 190px;
+}
+
+.diagnoses_container::-webkit-scrollbar {
+  width: 3px;
+}
+
+.diagnoses_container::-webkit-scrollbar-thumb {
+  background: gray;
+  border-radius: 5px;
+}
+
+.diagnose_container {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  gap: 5px;
+}
+
+.date_container {
+  font-size: 15px;
+  color: gray;
+}
+
+.description_container {
+  font-size: 15px;
+  width: 100%;
+  text-align: start;
+}
+
+.alerts_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.tags_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
